@@ -9,7 +9,7 @@ var chart    = require('chart.js')
   THEME
 -------------------------------------------------------*/
 var font       = 'Kaushan Script, cursive'
-var yellow     = 'hsla(52,35%,63%,1)'
+var yellow     = 'hsla(52,36%,2%,1)'
 var white      = 'hsla(120,24%,96%,1)'
 var violet     = 'hsla(329,25%,45%,1)'
 var lightBrown = 'hsla(29,21%,67%,1)'
