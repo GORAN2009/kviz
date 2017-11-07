@@ -10,6 +10,7 @@ var chart    = require('chart.js')
 -------------------------------------------------------*/
 var font       = 'Kaushan Script, cursive'
 var yellow     = 'hsla(52,36%,2%,1)'
+var crna     = 'hsla(52,8%,1%,1)'
 var white      = 'hsla(120,24%,96%,1)'
 var violet     = 'hsla(329,25%,45%,1)'
 var lightBrown = 'hsla(29,21%,67%,1)'
@@ -64,7 +65,7 @@ var answerOptions   = [1,2,3,4,5,6]
 function quizComponent () {
   var css = csjs`
     .quiz {
-      background-color: ${yellow};
+      background-color: ${crna};
       text-align: center;
       font-family: 'Kaushan Script', cursive;
       padding-bottom: 200px;
